@@ -16,7 +16,7 @@ app.get("/api/registrations", async (req, res) => {
     try {
       const all = await Registration.find();
   
-      const baseUrl = "http://localhost:5000"; // or use process.env.BASE_URL for production
+      const baseUrl = "https://footballevent-backend.onrender.com"; // or use process.env.BASE_URL for production
       const updated = all.map((registration) => {
         return {
           ...registration._doc,
