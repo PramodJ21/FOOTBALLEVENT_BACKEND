@@ -66,12 +66,7 @@ ${participantDetails}
 A screenshot of your payment has been received.
 
 Best Regards,
-Football Event Team`,
-
-A screenshot of your payment has been received.
-
-Best Regards,
-Football Event Team`,
+Amigos.11`,
     };
 
     // Send the confirmation email to the participant
