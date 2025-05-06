@@ -47,21 +47,26 @@ const registerParticipant = async (req, res) => {
       text: `Dear Participant,
 
 Thank you for registering for the football event.
-The event details are as follows: 
+The event details are as follows:
 
-7th May (Wednesday)
+11th May (Wednesday)
 
-12:30am - 2:00am(IST)
+7:45pm - 10:00pm(IST)
 
 Palegaon Turf, Ambernath(E)
 
 Here are your registration details:
-        
+
 Transaction ID: ${transactionId}
 Amount Paid: ₹${amountPaid}
 
 Participant Details:
 ${participantDetails}
+
+A screenshot of your payment has been received.
+
+Best Regards,
+Football Event Team`,
 
 A screenshot of your payment has been received.
 
